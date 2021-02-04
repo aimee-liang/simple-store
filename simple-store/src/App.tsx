@@ -30,13 +30,13 @@ const App = () => {
 
     const getTotalItems = () => null
 
-    const handleAddToCart = () => null
+    const handleAddToCart = (clickedItem: CartItemType) => null
 
     const handleRemoveFromCart = () => null
 
     if (isLoading) return <LinearProgress/>
     if (error) return <div>Something's wrong!</div>
-    
+
   return (<div className="App">Start</div>);
 }
 
